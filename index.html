@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+  <html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Adoptadog</title>
+      <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans:400,700|Source+Sans+Pro" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    </head>
+
+    <body>
+      <header class="hero-image">
+        <figure class="hero-logo">
+          <img src="images/adoptadog-logo.png" alt="adoptadog logo">
+          <figcaption class="caption">Seattle's premiere dog adoption agency</figcaption>
+        </figure>
+        <figure class="cart">
+          <div>
+            <img src="images/cart-icon.png" alt="cart logo">
+            <a href="checkout.html" id="cart-button">Checkout</a>
+          </div>
+        </figure>
+      </header>
+
+      <nav>
+        <header>
+          <h3 hidden>Browse the site</h3>
+        </header>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dogs.html">Dogs</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+
+      <main class="main-grid">
+        <article class="main-content">
+          <header>
+            <h3 hidden>Adopt a Dog Information</h3>
+          </header>
+          <section class="group">
+            <img src="images/main-image.jpg" id="main-image" alt="man hugging a dog">
+            <h1>Adopt A Dog</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+          <section>
+            <header>
+              <h3 hidden>Dog List</h3>
+            </header>
+            <article class="flex-container">
+              <header><h4 hidden>All of our Dogs</h4></header>
+              <div>
+                <section class="dog-profile">
+                  <header><h5 hidden>Murphy</h5></header>
+                  <img src="images/murphy.jpg" alt="brown dog with white snout" onclick="dogInfo('Murphy', 'Mutt', '123.45')">
+                  <section class="profile-text">
+                    <h2>Murphy</h2>
+                    <p><strong>Cost to adopt:</strong> $123.45</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="adopt-button" onclick="adoptionFee(123.45)">Adopt</button>
+                  </section>
+               </section>
+              </div>
+              <div>
+                <section class="dog-profile">
+                  <header><h5 hidden>Poppy</h5></header>
+                  <img src="images/poppy.jpg" alt="small white dog" onclick="dogInfo('Poppy', 'Terrier', '123.45')">
+                  <section class="profile-text">
+                    <h2>Poppy</h2>
+                    <p><strong>Cost to adopt:</strong> $123.45</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="adopt-button" onclick="adoptionFee(123.45)">Adopt</button>
+                  </section>
+                </section>
+              </div>
+              <div>
+                <section class="dog-profile">
+                  <header><h5 hidden>Jack</h5></header>
+                  <img src="images/jack.jpg" alt="small brown and white dog looking up" onclick="dogInfo('Jake', 'Beagal', '123.45')">
+                  <section class="profile-text">
+                    <h2>Jack</h2>
+                    <p><strong>Cost to adopt:</strong> $123.45</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="adopt-button" onclick="adoptionFee(123.45)">Adopt</button>
+                  </section>
+              </section>
+              </div>
+              <div>
+                <section class="dog-profile">
+                  <header><h5 hidden>duffy</h5></header>
+                  <img src="images/duffy.jpg" alt="short haired brown and white dog" onclick="dogInfo('Duffy', 'Boxer', '123.45')">
+                  <section class="profile-text">
+                    <h2>Duffy</h2>
+                    <p><strong>Cost to adopt:</strong> $123.45</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="adopt-button" onclick="adoptionFee(123.45)">Adopt</button>
+                  </section>
+                </section>
+              </div>
+              <div>
+                <section class="dog-profile">
+                  <header><h5 hidden>Lucas</h5></header>
+                  <img src="images/lucas.jpg" alt="black dog looking up" onclick="dogInfo('Lucas', 'German Shepherd', '123.45')">
+                  <section class="profile-text">
+                    <h2>Lucas</h2>
+                    <p><strong>Cost to adopt:</strong> $123.45</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="adopt-button" onclick="adoptionFee(123.45)">Adopt</button>
+                  </section>
+                </section>
+              </div>
+              <div>
+                <section class="dog-profile">
+                  <header><h5 hidden>Jake</h5></header>
+                  <img src="images/jake.jpg" alt="golden dog on beach" onclick="dogInfo('Jake', 'Golden Retriever', '123.45')">
+                  <section class="profile-text">
+                    <h2>Jake</h2>
+                    <p><strong>Cost to adopt:</strong> $123.45</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="adopt-button" onclick="adoptionFee(123.45)">Adopt</button>
+                  </section>
+                </section>
+              </div>
+            </article>
+          </section>
+          <section class="button-holder">
+            <header><h3 hidden>Button</h3></header>
+            <a href="dogs.html" class="more-dogs-button">See More Dogs</a>
+          </section>
+        </article>
+        <aside class="blog-preview">
+          <h3>From Our Blog</h3>
+          <div class="blog-preview-post">
+            <img src="images/travel-preview.jpg" alt="girl and dog sitting on a rock" class="blog-preview-image">
+            <h2>Travel With Your Dog</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p><a href="blog.html">Read More >>></a></p>
+          </div>
+          <div class="blog-preview-post">
+            <img src="images/multiple-preview.jpg" alt="multiple dogs looking for attention" class="blog-preview-image">
+            <h2>How to Walk Multiple Dogs</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p><a href="blog.html">Read More >>></a></p>
+          </div>
+          <div class="blog-preview-post">
+            <img src="images/fetch-preview.jpg" alt="dog and owner play fetch" class="blog-preview-image">
+            <h2>Teach Your Dog to Fetch!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <p><a href="blog.html">Read More >>></a></p>
+          </div>
+        </aside>
+      </main>
+
+      <footer>
+        <img src="images/adoptadog-logo.png" alt="adoptadog logo">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt<br>Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit, sed do eiusmod tempor incididunt</p>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Dogs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <p>&copy; Adoptadog, LLC | Seattle, WA</p>
+      </footer>
+      <script src="./adoptadog.js" charset="utf-8"></script>
+    </body>
+  </html>
