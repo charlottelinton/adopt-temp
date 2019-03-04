@@ -41,7 +41,13 @@
             <h3 hidden>Adopt a Dog Information</h3>
           </header>
           <section class="group">
-            <img src="images/main-image.jpg" id="main-image" alt="man hugging a dog">
+            <img srcset="images/main-image-small.jpg 500w,
+                         images/main-image-medium.jpg 1000w,
+                         images/main-image-large.jpg 2000w"
+                 sizes="(min-width: 320px) and (max-width: 767px) 750px,
+                        (min-width: 768px) and (max-width: 1024px) 924px,
+                        (min-width: 1025px) and (max-width: 1500px) 640px"
+            src="images/main-image.jpg" alt="man hugging a dog">
             <h1>Adopt A Dog</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
