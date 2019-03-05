@@ -368,6 +368,17 @@ footer ul li:not(:last-child):after {
     width: 100%;
   }
   .caption {
-    font-size: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .hero-logo img {
+    width: 75%;
+  }
+  .cart div {
+    top: 50%;
+    right: 35%;
+  }
+  footer img {
+    width: 50%;
   }
 }
