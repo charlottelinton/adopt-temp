@@ -54,3 +54,8 @@ they visit. He found out about the website from a friend and he uses it mainly o
   <li>Tested Javascript: Alerts triggered by clicks on dog photos and buttons function as expected.</li>
 </ul>
 </p>
+<h2>Improvements to be Made</h2>
+<ul>
+  <li>Hero image and text: There are some issues with positioning of the cart icon as the browser window width is adjusted. I will work to find a better solution for the positioning fir smaller window widths so that it looks uniform across all sizes.</li>
+  <li>Blog Posts: As the window width is made smaller on desktop, or is viewed on a mobile phone, the images become very small. I will work on adjusting the size of the images so that they adjust to smaller, but still visible, size at smaller screen/window widths.</li>
+</ul>
