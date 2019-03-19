@@ -22,7 +22,7 @@ makeForm.appendChild(lastNameLabel);
 
 const inputLastName = document.createElement('input');
 inputLastName.setAttribute('type', 'text');
-inputName.setAttribute('name', 'lastName');
+inputLastName.setAttribute('name', 'lastName');
 makeForm.appendChild(inputLastName);
 
 const emailLabel = document.createElement('label');
@@ -31,7 +31,9 @@ makeForm.appendChild(emailLabel);
 
 const inputEmail = document.createElement('input');
 inputEmail.setAttribute('type', 'email');
-inputName.setAttribute('name', 'email');
+inputEmail.setAttribute('name', 'email');
+inputEmail.setAttribute("required", "");
+inputEmail.required = true;
 makeForm.appendChild(inputEmail);
 
 const commentsLabel = document.createElement('label');
@@ -39,7 +41,7 @@ commentsLabel.innerHTML = "Comments: ";
 makeForm.appendChild(commentsLabel);
 
 const inputComments = document.createElement('textarea');
-inputName.setAttribute('name', 'comments');
+inputComments.setAttribute('name', 'comments');
 makeForm.appendChild(inputComments);
 
 const submitButton = document.createElement('input');
