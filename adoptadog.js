@@ -12,3 +12,7 @@ let total = 0;
     total = total + cost;
     alert('The total is: ' + '$' + total);
   }
+
+$('.dog-profile').hover(function(e) {
+  $('.dog-profile').toggleClass('profile-shadow');
+});
